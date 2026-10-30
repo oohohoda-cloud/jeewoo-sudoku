@@ -1,1 +1,39 @@
-{"name":"지우가 좋아하는 스도쿠","short_name":"지우 스도쿠","description":"지우가 좋아하는 스도쿠 게임","lang":"ko","start_url":"./index.html","scope":"./","display":"standalone","background_color":"#f6f7f0","theme_color":"#f6f7f0","icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}
+{
+  "id": "./",
+  "name": "지우가 좋아하는 스도쿠",
+  "short_name": "지우 스도쿠",
+  "description": "지우가 좋아하는 스도쿠 게임",
+  "lang": "ko",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f7f0",
+  "theme_color": "#f6f7f0",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
